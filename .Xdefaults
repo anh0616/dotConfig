@@ -1,10 +1,10 @@
-URxvt.foreground:	white
-URxvt.background:	black
+URxvt.foreground:	#FFFFFF
+URxvt.background:	#000000
 
 URxvt.scrollBar:	false
 URxvt.font:			xft:ndsbios:size=15
 
-URxvt.cursorColor:		white
+URxvt.cursorColor:		#000000
 URxvt.cursorBlink:		true
 URxvt.cursorUnderline:	true
 
