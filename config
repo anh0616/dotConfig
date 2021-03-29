@@ -31,8 +31,8 @@ module-margin-left = 1
 module-margin-right = 1
 
 font-0 = ndsbios:pixelsize=15;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
+font-1 = unifont:fontformat=truetype:size=7:antialias=false;0
+font-2 = siji:pixelsize=11;1
 
 modules-left = bspwm
 modules-center = xwindow
