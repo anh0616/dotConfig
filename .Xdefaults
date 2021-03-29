@@ -14,5 +14,8 @@ URxvt.cursorUnderline:	true
 #URxvt.blurRadius:	5
 
 URxvt.urlLauncher:		chromium
-URxvt.underlineURLd:	true
-URxvt.urlButton:		1
+
+URxvt.borderWidth:		0
+URxvt.internalBorder:	5
+URxvt.externalBorder:	0
+#internalBorder is space between text and border
