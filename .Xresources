@@ -1,0 +1,21 @@
+URxvt.foreground:	#FFFFFF
+URxvt.background:	#000000
+
+URxvt.scrollBar:	false
+URxvt.font:			xft:ndsbios:size=15
+
+URxvt.cursorColor:		#FFFFFF
+URxvt.cursorBlink:		true
+URxvt.cursorUnderline:	true
+
+!URxvt.transparent:	true
+!URxvt.shading:		10
+!URxvt.depth:		32
+!URxvt.blurRadius:	5
+
+URxvt.urlLauncher:		chromium
+
+URxvt.borderWidth:		0
+URxvt.internalBorder:	5
+URxvt.externalBorder:	0
+!internalBorder is space between text and border
