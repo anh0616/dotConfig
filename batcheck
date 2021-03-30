@@ -1,0 +1,3 @@
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 > /home/haq/.config/CustomCmd/bat.txt
+
+grep percentage /home/haq/.config/CustomCmd/bat.txt
