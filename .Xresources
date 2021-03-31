@@ -9,6 +9,7 @@ URxvt.cursorBlink:		true
 URxvt.cursorUnderline:	true
 
 !URxvt*transparent:	true
+!URxvt*inheritPixmap: true
 !URxvt*shading:		10
 !URxvt*depth:		32
 !URxvt*blurRadius:	5
