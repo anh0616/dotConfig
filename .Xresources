@@ -1,5 +1,13 @@
 URxvt.foreground:	#FFFFFF
 URxvt.background:	#000000
+URxvt.colorUL:		#ff0095
+URxvt.colorBD:		#ffbb00
+URxvt.colorIT:		#ffbb00
+URxvt.fading:		35
+!colorUL for underline text color
+!colorBD for bold text color
+!colorIT for italic text color
+!fading for fade out when the terminal is unfocus
 
 URxvt.scrollBar:	false
 URxvt.font:			xft:ndsbios:size=15
@@ -11,7 +19,7 @@ URxvt.cursorUnderline:	true
 URxvt*inheritPixmap:true
 URxvt*transparent:	true
 URxvt*shading:		50
-URxvt*depth:		32
+!URxvt*depth:		32
 URxvt*blurRadius:	5
 
 URxvt.urlLauncher:		chromium
