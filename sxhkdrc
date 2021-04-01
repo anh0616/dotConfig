@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run -fn 'ndsbios' -nf '#FFFFFF' -sb '#e60053' -sf '#FFFFFF' -nb '#000000' -b
+	dmenu_run -fn 'ndsbios' -nf '#FFFFFF' -sb '#242424' -sf '#FFFFFF' -nb '#000000' -b
 
 # make sxhkd reload its configuration files:
 super + Escape
