@@ -10,4 +10,3 @@ PS1='[\u@\h \W]\$ '
 
 alias ec='$HOME/.config/CustomCmd/batcheck'
 alias fec='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
-alias vi='vim '
