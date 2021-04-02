@@ -12,3 +12,6 @@ alias ec='$HOME/.config/CustomCmd/batcheck'
 alias fec='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
 
 alias sc='import -window root $HOME/Downloads/$(date '+%m-%d-%Y').jpg'
+
+alias mt='unimatrix'
+alias mtw='unimatrix -c white'
