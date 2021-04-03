@@ -120,7 +120,7 @@ format-disconnected = <label-disconnected>
 type = internal/date
 interval = 1
 
-date = "%m-%d"
+date = "%h-%d"
 date-alt = " %Y-%m-%d"
 
 time = %H:%M
