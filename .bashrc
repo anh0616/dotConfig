@@ -15,3 +15,5 @@ alias sc='import -window root $HOME/Downloads/$(date '+%h-%d-%Y-%H:%M:%S').jpg'
 
 alias mt='unimatrix'
 alias mtw='unimatrix -c white'
+
+alias icat='kitty +kitten icat'
