@@ -1,7 +1,7 @@
 ;Polybar config
 
 [colors]
-background = #aa000000
+background = #000000
 background-alt = #444
 foreground = #ffffff
 foreground-alt = #555
@@ -11,17 +11,17 @@ alert = #bd2c40
 
 [bar/example]
 width = 100%
-height = 15
+height = 20
 radius = 0
 fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 1
+line-size = 2
 line-color = #f00
 
-border-size = 1
+border-size = 0
 border-color = #00000000
 
 padding-left = 0
@@ -39,7 +39,7 @@ modules-center = xwindow
 modules-right = alsa cpu memory temperature wlan eth date
 
 tray-position = none
-tray-padding = 2
+tray-padding = 0
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -185,10 +185,10 @@ screenchange-reload = true
 ;compositing-background = screen
 ;compositing-foreground = source
 ;compositing-border = over
-;pseudo-transparency = false
+pseudo-transparency = true
 
 [global/wm]
-margin-top = 5
-margin-bottom = 5
+margin-top = 0
+margin-bottom = 0
 
 ; vim:ft=dosini
