@@ -9,6 +9,7 @@ primary = #444
 secondary = #e60053
 alert = #bd2c40
 yellow = #Ffbb00
+orange = #FF8614
 blue = #3075ff
 green = #1ac200
 dgreen = #0e6600
@@ -34,13 +35,13 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = monospace:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=7:antialias=false;0
-font-2 = siji:pixelsize=13;1
+font-0 = monospace:pixelsize=9;1
+font-1 = unifont:fontformat=truetype:size=5:antialias=false;0
+font-2 = siji:pixelsize=9;1
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = alsa cpu memory temperature wlan eth date
+modules-right = pulseaudio cpu memory temperature wlan eth battery date
 
 tray-position = none
 tray-padding = 0
@@ -124,8 +125,8 @@ format-disconnected = <label-disconnected>
 type = internal/date
 interval = 1
 
-date = "%h-%d"
-date-alt = " %Y-%m-%d"
+date =
+date-alt = "%h %d,%Y"
 
 time = %H:%M
 time-alt = %H:%M:%S
@@ -216,30 +217,30 @@ adapter = AC
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = ${colors.orange}
 
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-prefix-foreground = ${colors.orange}
 format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
+ramp-capacity-foreground = ${colors.orange}
 
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
-animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-foreground = ${colors.orange}
 animation-charging-framerate = 750
 
 animation-discharging-0 = 
 animation-discharging-1 = 
 animation-discharging-2 = 
-animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-foreground = ${colors.orange}
 animation-discharging-framerate = 750
 
 [settings]
