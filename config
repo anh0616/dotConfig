@@ -1,7 +1,7 @@
 ;Polybar config
 
 [colors]
-background = #aa00222
+background = #aa000000
 background-alt = #444
 foreground = #ffffff
 foreground-alt = #555
