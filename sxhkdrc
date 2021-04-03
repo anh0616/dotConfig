@@ -3,7 +3,7 @@
 #
 
 super + alt + s
-	import -window root $HOME/Downloads/$(date '+%h-%d-%Y-%H:%M:%S').jpg
+	import -window root $HOME/Downloads/$(date '+%Y-%h-%d-%H-%M-%S').jpg
 
 super + alt +e
 	$HOME/.config/CustomCmd/batcheck
