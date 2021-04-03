@@ -2,6 +2,9 @@
 # wm independent hotkeys
 #
 
+super + alt + s
+	import -window root $HOME/Downloads/$(date '+%h-%d-%Y-%H:%M:%S').jpg
+
 # terminal emulator
 super + Return
 	kitty
