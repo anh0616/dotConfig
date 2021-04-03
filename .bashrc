@@ -8,9 +8,6 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-alias ec='$HOME/.config/CustomCmd/batcheck'
-alias fec='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
-
 alias sc='import -window root $HOME/Downloads/$(date '+%Y-%h-%d-%H-%M-%S').jpg'
 
 alias mt='unimatrix'

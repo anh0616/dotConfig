@@ -5,9 +5,6 @@
 super + alt + s
 	import -window root $HOME/Downloads/$(date '+%Y-%h-%d-%H-%M-%S').jpg
 
-super + alt + e
-	$HOME/.config/CustomCmd/batcheck
-
 # terminal emulator
 super + Return
 	kitty
