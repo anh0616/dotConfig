@@ -1,3 +1,4 @@
+|meta|html
 te|text|html
 type|type|html
 in|input|html

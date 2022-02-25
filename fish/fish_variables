@@ -1,16 +1,17 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
-SETUVAR _fish_abbr_110:cd\x20\x7e/Notes/DIGI110\x20\x26\x26\x20ls
-SETUVAR _fish_abbr_261:cd\x20\x7e/Notes/261\x20\x26\x26\x20ls
-SETUVAR _fish_abbr_307:cd\x20\x7e/Notes/307\x20\x26\x26\x20ls
-SETUVAR _fish_abbr_311:cd\x20\x7e/Notes/311\x20\x26\x26\x20ls
-SETUVAR _fish_abbr_320:cd\x20\x7e/Notes/320\x20\x26\x26\x20ls
-SETUVAR _fish_abbr_Notes:cd\x20\x7e/Notes\x20\x26\x26\x20ls
-SETUVAR _fish_abbr_b:cd
+SETUVAR _fish_abbr_110:cd\x20\x7e/Notes/DIGI110\x20\x26\x26\x20ls\x20\x2da
+SETUVAR _fish_abbr_261:cd\x20\x7e/Notes/261\x20\x26\x26\x20ls\x20\x2da
+SETUVAR _fish_abbr_307:cd\x20\x7e/Notes/307\x20\x26\x26\x20ls\x20\x2da
+SETUVAR _fish_abbr_311:cd\x20\x7e/Notes/311\x20\x26\x26\x20ls\x20\x2da
+SETUVAR _fish_abbr_320:cd\x20\x7e/Notes/320\x20\x26\x26\x20ls\x20\x2da
+SETUVAR _fish_abbr_Notes:cd\x20\x7e/Notes\x20\x26\x26\x20ls\x20\x2da
+SETUVAR _fish_abbr_b:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_bb:cd\x20\x2d
 SETUVAR _fish_abbr_bh:cd\x20\x7e
 SETUVAR _fish_abbr_c:clear
+SETUVAR _fish_abbr_la:ls\x20\x2da
 SETUVAR _fish_abbr_n:neofetch
 SETUVAR _fish_abbr_nv:nvim
 SETUVAR _fish_abbr_show:abbr\x20\x2d\x2dshow
