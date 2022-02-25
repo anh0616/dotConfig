@@ -1,0 +1,9 @@
+te|text|html
+type|type|html
+in|input|html
+fo|form|html
+f|form|html
+for|form|html
+hre|href|html
+|li|html
+|section|html
