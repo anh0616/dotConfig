@@ -17,10 +17,11 @@ Plug 'vim-airline/vim-airline-themes'
 let g:coc_global_extensions =
 			\[
 			\ 'coc-json',
+			\ 'coc-css',
+			\ 'coc-html',
 			\ 'coc-pyright',
 			\ 'coc-sh',
-			\ 'coc-clangd',
-			\ 'coc-html',
+			\ 'coc-cmake',
 			\ 'coc-stylelint',
 			\ 'coc-stylelintplus',
 			\ 'coc-clangd'
@@ -39,4 +40,3 @@ map <C-l> <C-w>l
 nmap <C-f> :NERDTreeToggle<CR>
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
-

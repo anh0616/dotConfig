@@ -7,6 +7,7 @@ SETUVAR _fish_abbr_307:cd\x20\x7e/Notes/307\x20\x26\x26\x20ls\x20\x2da
 SETUVAR _fish_abbr_311:cd\x20\x7e/Notes/311\x20\x26\x26\x20ls\x20\x2da
 SETUVAR _fish_abbr_320:cd\x20\x7e/Notes/320\x20\x26\x26\x20ls\x20\x2da
 SETUVAR _fish_abbr_Notes:cd\x20\x7e/Notes\x20\x26\x26\x20ls\x20\x2da
+SETUVAR _fish_abbr_Projects:cd\x20\x7e/Projects\x20\x26\x26\x20ls\x20\x2da
 SETUVAR _fish_abbr_b:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_bb:cd\x20\x2d
 SETUVAR _fish_abbr_bh:cd\x20\x7e
@@ -15,6 +16,10 @@ SETUVAR _fish_abbr_gf:git\x20fetch\x20\x26\x26\x20git\x20status
 SETUVAR _fish_abbr_la:ls\x20\x2da
 SETUVAR _fish_abbr_n:neofetch
 SETUVAR _fish_abbr_nv:nvim
+SETUVAR _fish_abbr_p:pokeget\x20\x28random\x201\x20807\x29
+SETUVAR _fish_abbr_pS:pokeget\x20\x2dshiny\x20\x28random\x201\x20807\x29
+SETUVAR _fish_abbr_ps:pokeget\x20\x2dsmall\x20\x28random\x201\x20807\x29
+SETUVAR _fish_abbr_psS:pokeget\x20\x2dsmall\x20\x2dshiny\x20\x28random\x201\x20807\x29
 SETUVAR _fish_abbr_show:abbr\x20\x2d\x2dshow
 SETUVAR _fish_abbr_t:tree
 SETUVAR _fish_abbr_viu:ssh\x20\x2dl\x20haq\x20csci\x2eviu\x2eca
